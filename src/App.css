@@ -1,38 +1,97 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.app_form {
+  /* margin-top: 15%; */
+  width: 50%;
+  border: 0.5px solid #f8f8f8;
+  background-color: #fff;
+  margin-top: 2%;
+}
+.app_image {
+  margin-top: 2%;
+  width: 50%;
+  /* border: 2px solid orange; */
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 13%;
+}
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4 {
+  text-align: center;
+  font-size: small;
+  margin-top: 10%;
+  color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  margin-top: 6%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h5 {
+  text-align: center;
+  color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.input1 {
+  margin-left: 25%;
+  /* margin-top: 15%; */
+  /* background-color: #f8f8f8; */
+  background-color: transparent;
+  box-shadow: 0px 0px 0.2px 0.2px black;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 50%;
+}
+.input2 {
+  margin-left: 25%;
+  /* margin-top: 15%; */
+  /* background-color: #f8f8f8; */
+  background-color: transparent;
+  margin-top: 5%;
+  /* box-shadow: 0px 0px 0.2px 0.2px black; */
+  outline: none;
+  border: none;
+  padding: 10px;
+  /* width: 50%; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: #61acb3;
+  margin-left: 25%;
+  border: none;
+  color: #fff;
+  margin-top: 5%;
+  width: 50%;
+  padding: 5px;
+  /* border-start-radius: 10px; */
+  /* border-start-end-radius: 10px; */
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+a {
+  color: cadetblue;
+  text-decoration: none;
+  margin-left: 10%;
 }
